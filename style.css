@@ -1,0 +1,120 @@
+*{
+    list-style-type: none;
+    padding: 0;
+}
+.chinhsua{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+
+}
+
+
+.vungbody {
+    width: auto;
+    text-align: center;
+    display: block;
+    box-sizing: border-box;
+    border-right: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+    padding: 29px 10px;
+    color: #202325;
+    color: rgba(32,35,37,.8);
+    -webkit-box-flex: 1;
+    flex: 1 0 auto;
+    padding: 0 0 50px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: #fafafa;
+}
+.vungbody img{
+    display: block;
+    margin: 0 auto 13px;
+    width: 94px;
+    height: 94px;
+    
+    
+    
+   
+
+    
+   
+}
+.myCarousel{
+    left: 0;
+    top: 0;
+    display: block;
+    width: 960px;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+.myCarousel img{
+    width: auto;
+    display: block;
+}
+.vungend{
+    font-size: 14px;
+    text-align: center;
+    margin: 0 0 4px;
+    white-space: pre-wrap;
+    color:rgba(32,35,37,.4);
+
+    margin: auto;
+    color: #202325;
+    color: rgba(32,35,37,.4);
+}
+
+.vunglast  {
+    text-align: center;
+    
+    
+}
+
+.vunglast a {
+    color:rgba(32,35,37,.4);    
+    padding: 3px;
+    
+}
+
+.vunglast a:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color:#202325;
+}
+.head{
+    max-width: 960px;
+    padding: 0 30px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+.logo-fix{
+    margin: 8px 0 0 10px;
+    border: 0px solid #d9d9d9;
+    border-radius: 18px;
+    font-size: 14px;
+  
+}
+.carousel-control{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 15%;
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    background-color: rgba(0,0,0,0);
+    opacity: 0.5;
+}
+.slick-slide img {
+    display: block;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+    line-height: 1;
+    margin: auto;
+}
+.container{
+    width:930px;
+}
